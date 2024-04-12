@@ -36,3 +36,137 @@
     transform: rotate(360deg);
   }
 }
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.movie-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.movie-info {
+  font-size: 16px;
+}
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #0e0e0e;
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+  underline {
+    text-decoration: underline;
+  }
+  .ex1 {
+    overflow-x: scroll;
+    scrollbar-color: black;
+    padding: 30px;
+    color: black;
+    
+   
+  
+  }
+  .exo {
+   
+      overflow-y: hidden;
+     
+      padding: 30px;
+      height: 1100px;
+    
+    }
+    .exos{
+   
+      overflow-x: scroll;
+      width: 100%;
+      padding: 30px;
+      height: 500px;
+    
+    }
+  
+  
+
+  .ex {
+    overflow-y: scroll;
+    scrollbar-color: rgb(119, 150, 236);
+    padding: 30px;
+    height: 900px;
+  
+  }
+  
+  .img{
+    background-image:url('https://avatars.mds.yandex.net/i?id=ded6742586756ec096ef63f8c5dcd4ee16818439-9652646-images-thumbs&n=13');
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+
+ 
+  }
+  .img2{
+    background-image:url('https://avatars.mds.yandex.net/i?id=ded6742586756ec096ef63f8c5dcd4ee16818439-9652646-images-thumbs&n=13');
+    width: 100%;
+    
+    background-size:cover;
+
+  }
+  .so{
+
+background-color: rgb(152, 159, 216);
+margin-right: 5px;
+  }
+  .search{
+    position: absolute;
+    transition: 1s;
+    padding:20px 0 20px 135px;
+    background-color: white;
+    z-index:1;
+    max-width:  100%;
+    overflow-x:hidden;
+    left:0;
+    width:100%;
+  }
